@@ -1,0 +1,26 @@
+<div class="video-blog">
+    <div class="video-blog__title">Видеоблог</div>
+    <div class="video-blog__author">
+        <img class="video-blog__name" src="{{ site.baseurl }}/assets/img/videoBlog/name.png" alt="name">
+        <img class="video-blog__surname" src="{{ site.baseurl }}/assets/img/videoBlog/surname.png" alt="surname">
+    </div>
+    <div class="video-blog__video-wrapper">
+        <img class="video-blog__video" src="{{ site.baseurl }}/assets/img/videoBlog/video_bg.jpg" alt="video">
+        <iframe class="video-blog__iframe" src="https://www.youtube.com/embed/{{ site.youtubeLink }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <a href="https://sslcasino.com/videoblog" class="video-blog__arrow-left"></a>
+    <a href="https://sslcasino.com/videoblog" class="video-blog__arrow-right"></a>
+    <div class="video-blog__btn-wrapper">
+            {% if site.prod %}
+    			<a href="http://go4slots.com/go/22rL?" data-url class="video-blog__btn video-blog__btn-play">
+    				Регистрация
+    			</a>
+            {% else %}
+	            <a href="https://www.youtube.com/channel/UCNyBkSoSBTqv2zctYjfI0hA"  class="video-blog__btn video-blog__btn-play">
+	            	Подисаться на канал
+	            </a>
+            {% endif %}
+
+    </div>
+</div>
+

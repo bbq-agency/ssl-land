@@ -1,0 +1,53 @@
+@mixin btn {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 22px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    transition: all .05s ease;
+    position: relative;
+    top: 0;
+
+    &:hover {
+        
+    }
+
+}
+
+// primary
+@mixin btn--primary {
+    background: #eb9c1c;
+    &:hover {
+        background: #eb9c1c;
+    }
+
+}
+
+// default
+@mixin btn--default {
+    background: #dc1461;
+    background: linear-gradient(to bottom,  #dc1461 0%,#dc1481 100%);
+
+    &:hover {
+        background: linear-gradient(to top,  #dc1461 0%,#dc1481 100%);
+    }
+
+}
+
+// small
+@mixin btn--small {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+// large
+@mixin btn--large {
+    font-size: 18px;
+    padding: 15px 25px;
+}
