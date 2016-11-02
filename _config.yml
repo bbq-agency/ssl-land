@@ -1,8 +1,8 @@
-baseurl: '/ssl-landing'
+baseurl: '/ssl-land'
 include: ['_pages']
 exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
 includes_dir: ./_components
 data_dir: ./_components
 
-prod: false # false, true
+moderated: false # false, true
 youtubeLink: '_Vb5Zk68bK4'
