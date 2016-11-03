@@ -3,10 +3,15 @@
 
     // socialArr = [vk, ok, default];
 
-    var elem = document.querySelector('[data-url]');
+    var elem = document.querySelectorAll('[data-url]');
+
 
     function newUrl(social) {
-        elem.href = elemHref + social + '#registration';
+
+        for (var i = 0; i < elem.length; i++) {
+          elem[i].href = elem[i].href + social + '#registration';
+        }
+        
     }
 
     var urlParams = window.location.search;
@@ -16,7 +21,6 @@
                         socialArr[2];
 
     if (elem) {
-        var elemHref = elem.href;
         newUrl(socialParam);
     }
 
