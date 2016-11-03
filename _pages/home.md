@@ -3,5 +3,5 @@ layout: home
 permalink: /
 
 title: 'Видеоблог Анны Громовой'
-description: 'Видеоблог Анны Громовой'
+description: 'Привет меня зовут Аня'
 ---
