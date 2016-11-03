@@ -15,3 +15,13 @@ Ok: [ssl-anna.github.io/?ok](https://ssl-anna.github.io/?ok) --> p47876p160888pa
 `npm i`
 
 `gulp watch`
+
+### Used
+
+Static site generator - [Jekyll](https://jekyllrb.com)
+
+Streaming build system - [Gulp](http://gulpjs.com)
+
+Front-end concept - [Coriolan UI](https://coriolan-ui.github.io)
+
+Proudly hosted by [GitHub Pages](https://pages.github.com)
