@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 gulp.task('jekyll-build', ['js-min'], function (done) {
     browserSync.notify('gulp jekyll-build');
     var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
-    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
+    return cp.spawn(jekyll, ['build', '--config', '_config.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -93,8 +93,7 @@ gulp.task('watch', ['browser-sync'], function () {
         '_pages/**/*',
         'assets/img/**/*',
         'assets/fonts/**/*',
-        '_config.yml',
-        '_config_dev.yml'
+        '_config.yml'
     ], ['jekyll-rebuild']);
 });
 

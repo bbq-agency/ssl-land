@@ -2,8 +2,6 @@
 layout: home
 permalink: /
 
-title: 'Lotofun - Free to Play Casino'
-description: 'Lotofun - Free to Play Casino'
-
-og-image: 'home.png'
+title: 'Видеоблог Анны Громовой'
+description: 'Видеоблог Анны Громовой'
 ---
